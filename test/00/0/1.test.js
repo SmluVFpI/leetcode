@@ -1,8 +1,8 @@
 "use strict";
 const expect = require("chai").expect;
-const twoSum = require("../../dist/0001.js").twoSum;
+const twoSum = require("../../../dist/00/0/1").twoSum;
 
-describe("0000-0100/0001.js function test", () => {
+describe("0001.js function test", () => {
   it("should return [0, 1]", () => {
     const result = twoSum([2, 7, 11, 15], 9);
     expect(result[0]).to.equal(0);

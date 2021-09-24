@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --ext .ts ./",
-    "test": "mocha test/**/*.test.js -R spec",
+    "lint": "eslint --ext .js,.ts ./",
+    "test": "tsc && mocha test/**/*.test.js -R spec",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/**/*.test.js - - -R spec"
   },
   "author": "",

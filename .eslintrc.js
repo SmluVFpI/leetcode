@@ -16,5 +16,5 @@ module.exports = {
     "no-unused-vars": 2,
     "@typescript-eslint/no-var-requires": 0,
   },
-  ignorePatterns: ["dist", "test", "coverage", "node_modules"],
+  ignorePatterns: ["dist", "coverage", "node_modules"],
 };
